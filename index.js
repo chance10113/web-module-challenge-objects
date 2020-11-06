@@ -84,7 +84,7 @@ Using the reviews array above:
   1. log only Julius' feedback to the console
 */
 
-console.log(reviews[5])
+//console.log(reviews[5])
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -94,7 +94,7 @@ Using the reviews array above do the following:
 */
 
 reviews.push({name: "Chance", rating:4, feedback: "Great little spot, not one for karaoke Fridays though."});
-console.log(reviews)
+//console.log(reviews)
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following:
@@ -102,8 +102,8 @@ Reyna's feedback is missing! Use what you know to do the following:
   2. log the reviews array to the console to check your work
 */
 
-
-
+reviews[7].feedback ="this place is chill with really cool people, great for getting work done on weekdays";
+console.log(reviews)
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
